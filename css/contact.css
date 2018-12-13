@@ -1,0 +1,198 @@
+.contact_run{
+	width: 100%;
+	position: relative;
+	height: 450px;
+	overflow: hidden;
+}
+.contact_run .img_box{
+	width: 100%;
+}
+.contact_run .img_box ul{
+	width: 100%;
+	position: absolute;
+}
+.contact_run .img_box ul li{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.contact_run .img_box ul li img{
+	display: block;
+	width: 100%;
+	height: 450px;
+}
+.contact_run .prev{
+	display: none;
+	z-index: 10;
+	cursor: pointer;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -30px;
+	width: 60px;
+	height: 60px;
+	background: url(../contact/btn.gif) no-repeat;
+}
+.contact_run .next{
+	display: none;
+	z-index: 10;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -30px;
+	width: 60px;
+	height: 60px; 
+	background: url(../contact/btn.gif) no-repeat;
+	background-position: 0 -60px;
+}
+.contact_run .run_light{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.contact_run .run_light span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius:20px ;
+	background: lightblue;
+	cursor: pointer;
+	text-indent: -99999px;
+	margin-right: 10px;
+}
+.contact_run .run_light .now{
+	background: red;
+}
+/*
+ 
+ * 联系我们部分
+ * */
+.contact_us{
+	
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+	/*background: #eee;*/
+}
+.contact_us h5{
+	width: 100%;
+	height: 50px;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+.contact_us h6{
+	width: 100%;
+	height: 50px;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.contact_us .conlist{
+	width: 100%;
+}
+.contact_us .conlist ul{
+	width: 100%;
+	box-sizing: border-box;
+}
+.contact_us .conlist ul li{
+	float: left;
+	text-align: center;
+	width: 25%;
+	box-sizing: border-box;
+	border-right: 1px solid #e3e3e3;
+}
+.contact_us .conlist ul li:last-child{
+	border-right:0;
+}
+.contact_us .conlist ul li p{
+	height: 30px;
+	line-height: 30px;
+	font-size: 26px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.contact_us .conlist ul li span{
+	font-size: 22px;
+}
+#map{
+	width: 500px;
+	height: 490px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	float: left;
+}
+.other{
+	float: right;
+	width: 500px;
+	height: 500px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+	
+}
+.other h2{
+	height: 50px;
+	line-height: 50px;
+	font-size: 26px;
+	/*background: #E3E3E3;*/
+	padding-left: 20px;
+	position: relative;
+}
+.other h2:before{
+	content:'' ;
+	width: 3px;
+	height: 24px;
+	position: absolute;
+	left: 5px ;
+	top: 13px;
+	background: #FF0000;
+}
+.other ul{
+	width: 100%;
+	height: 30px;
+	background: #ADD8E6;
+	color: lightcoral;
+}
+.other ul li{
+	float: left;
+	width: 33.333%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.other .tab{
+	width: 100%;
+	height: 420px;
+	overflow: hidden;
+	overflow-y: auto;
+	border: 1px solid #E3E3E3;
+}
+.other .tab table{
+	width: 100%;
+}
+.other table tbody{
+	height: 420px;
+	
+}
+.other .tab table tr{
+	width: 100%;
+	height: 50px;
+}
+
+.other .tab table tr td{
+	width: 33.333%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+}

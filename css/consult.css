@@ -1,0 +1,185 @@
+.consult{
+	width: 800px;
+	height: 600px;
+	/*background: lightblue;*/
+	margin: 50px auto;
+	box-sizing: border-box;
+}
+.consult .consult_tit{
+	width: 100%;
+	height: 60px;
+	padding-top: 10px;
+	background: lightskyblue;
+	box-sizing: border-box;
+}
+.consult .consult_tit img{
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.consult .consult_tit p{
+	font-size: 16px;
+	color: #fff;
+}
+/*
+ */
+.consult_left{
+	width: 70%;
+	height: 550px;
+	float: left;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	position: relative;
+}
+.consult_left .left_talk{
+	border-bottom: 1px solid #E3E3E3;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	overflow-y: auto;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	font-size: 14px;
+
+}
+.consult_left .left_talk .talk_other{
+
+	display: none;
+}
+.consult_left .left_talk .talk_other p{
+	font-size: 12px;
+}
+.consult_left .left_talk .talk_us{
+	width: 100%;
+	float: right;
+	vertical-align: text-bottom;
+}
+.consult_left .left_talk .talk_us p span{
+	font-size: 14px;
+}
+.consult_left .left_talk .talk_us p{
+	font-size: 12px;
+	direction: rtl;
+}
+/**/
+
+.consult_left .face{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #E3E3E3;
+	position: relative;
+}
+.consult_left .face ul{
+	position: absolute;
+	left: 0;
+	top: -320px;
+	width: 300px;
+	height: 318px;
+	border: 1px solid #E3E3E3;
+	overflow: hidden;
+	/*overflow-y: auto;*/
+	display: none;
+}
+.consult_left .face ul li{
+	width: 25%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	height: 60px;
+	/*line-height: 50px;*/
+	margin-bottom: 2px;
+}
+.consult_left .face ul li img{
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.consult_left .face ul li img:hover{
+	border: 1px solid #E3E3E3;
+}
+.consult_left .face .face_btn{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.consult_left .face .face_btn:hover{
+	border: 1px solid #E3E3E3;
+}
+
+#txt{
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	height: 70px;
+	/*font-variant: hojo-kanji;*/
+	margin-top: -10px;
+	/*vertical-align:top;*/
+}
+.consult_right{
+	box-sizing: border-box;
+	width: 30%;
+	height: 550px;
+	float: left;
+	border: 1px solid #E3E3E3;
+	border-left: 0;
+}
+#send{
+	position: absolute;
+	right: 10px;
+	bottom:10px ;
+	background: lightskyblue;
+	width: 60px;
+	height: 30px;
+}
+#send:active{
+	color: white;
+}
+/*
+ 
+ * 右边部分*/
+.consult_right .right_tit{
+	font-size: 18px;
+	height: 50px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #E3E3E3;
+	/*padding-left: 10px;*/
+	text-align: center;
+}
+.consult_right .right_tit span{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	font-style: oblique;
+	color: #87CEFA;
+}
+.consult_right .right_con{
+	font-size: 16px;
+	height: 200px;
+	border-bottom: 1px solid #E3E3E3;
+	padding-top: 10px;
+}
+.consult_right .right_con p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.consult_right .right_con h2{
+	text-align: center;
+}
+.consult_right .right_img{
+	height: 288px;
+	padding: 10px;
+}
+.consult_right .right_img img{
+	display: block;
+	width: 220px;
+	height: 268px;
+}

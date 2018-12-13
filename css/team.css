@@ -1,0 +1,149 @@
+.teamline{
+    border-bottom:1px solid #eee;  
+}
+.teamtit{
+    height:51px;
+    line-height:51px;
+}
+.teamtlt p{
+    font-size:14px;
+    color:#333333;
+}
+.teamtit h1{
+        float: left;
+        font-size:14px;
+    }
+.teamtit p{
+    float: left;
+}
+.shiziteamimg{
+    margin-top:38px;
+}
+.yanfa{
+    margin-top:30px;
+    margin-left:3px;
+}
+.yanfa p{
+    font-size:20px;
+    margin-left:12px;
+    color:#333333;
+}
+.yanfaline{
+    margin-top:16px;
+    border-bottom:1px solid #eeeeee;
+}
+.swipe3_content1 ul
+{
+width: 1600px;
+height:304px;
+overflow: hidden;
+padding-bottom: 5px;
+padding-top:5px;
+padding-left: 2px;
+overflow:hidden;
+}
+.swipe3_content1 ul li
+ {
+           
+float: left;
+width: 232px;
+height:302px;
+display: inline;
+margin-right: 8px;
+position: relative;
+cursor: pointer;
+overflow: hidden;
+/*过渡属性*/
+transition:all 1s;
+        }
+        
+.swipe3_content1 ul li span{
+position: absolute;
+width: 235px;
+height: 304px;
+background-color: #fff;
+bottom:-239px;
+left:0;
+/*过渡属性*/
+transition:all 1s;
+
+ }
+
+.swipe3_content1 ul li:hover span{
+    bottom:0;
+}
+        .swipe3_content1 ul li:hover{
+            box-shadow:#ececec 0 0 20px;      
+        }
+
+        .swipe3_content1 ul li:hover .name{
+            color:#0068b7;
+            margin-top:20px;
+            /*transition:1s;*/
+            background-color: #fff;
+        }
+      
+.swipe3_content1 ul li span .name{
+    font-size:16px;
+    color:#333;
+    text-align:center;
+    /*transition:1s;*/
+    padding-top: 10px;
+    padding-bottom: 15px; 
+    background-color: #eeeeee;
+}
+.swipe3_content1 ul li span .namect{
+    font-size:14px;
+    color:#333;
+    text-align:justify;
+    padding-left:17px;
+    line-height:1.4;
+    letter-spacing:2px;
+    margin-top:8px;
+}
+.swipe3_content1 ul li span .namect b{
+    letter-spacing:8px;
+}
+.swipe3_content1 ul li span .lines1{
+    width:233px;
+    height:1px;
+    background-color: #e8e8e8;
+
+    
+    margin:0 auto;
+}
+        .swipe3_content1 ul li img
+        {
+            width: 230px;
+        }
+.swipe3content{
+    margin-top:25px;
+    overflow:hidden;
+}
+
+.youngteacher{
+	margin-top:48px;
+	margin-left:3px;
+}
+.youngteacher p{
+	font-size:20px;
+	margin-left:12px;
+	color:#333333;
+}
+.shaoer-teachers{
+	margin-top:25px;
+}
+.shaoer-teachersgb{
+    margin-bottom:115px;
+}
+.shaoerfr{
+	margin-right:39px;
+	margin-top:22px;
+}
+.shaoerfr2{
+	margin-right:37px;
+	margin-top:22px;
+}
+.shaoertop{
+	margin-top:22px;
+}

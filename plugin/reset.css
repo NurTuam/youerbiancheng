@@ -1,0 +1,80 @@
+﻿html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-size: 0;
+    font-family: Helvetica,Arial,"PingFang SC","Noto Sans",Roboto,"Microsoft Yahei",sans-serif;
+    transition: all .3s ease-in-out 0s;
+}
+
+p,ul,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.txt-clip{
+    /*TODO: need width and has to be one line*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.floatfix{
+    *zoom: 1;
+}
+
+.floatfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.hide{
+    display: none;
+}
+
+img{
+    /*去除IE边框*/
+    border: none;
+}
+
+input{
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    resize:none;
+}
+
+/*关于空格
+&nbsp 受字体影响
+&ensp 1/2个中文宽度
+&emsp 1个中文宽度
+*/

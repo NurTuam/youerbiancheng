@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f5f5f5;
+}
+
+/*main部分开始*/
+.main{
+	width: 100%;
+	height: 1720px;
+	/*background: red;*/
+}
+.contain{
+	width: 100%;
+	height: 450px;
+	background: url(../images/media_01.jpg) center center;
+	background-size: cover;
+	position: relative;
+}
+.mark{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	opacity: 0.2;
+}
+.contain_txt{
+	width: 300px;
+	height: 100px;
+	color: #FFFFFF;
+	font-size: 30px;
+	position: absolute;
+	bottom: 50px;
+	left: 100px;
+}
+.contain-news{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 40px;
+}
+.contain-center{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.news_container{
+	width: 100%;
+	height: 1240px;
+}
+.news{
+	width: 1200px;
+	height: 1140px;
+	margin: 0 auto;
+	display: none;
+	/*border: 1px solid #000000;*/
+}
+.news_con{
+	width: 1200px;
+	height: 280px;
+	margin: 0 auto;
+	/*border: 1px solid #000000;*/
+}
+
+.news-shows{
+	display: block;
+	width: 100%;
+	height: 244px;
+	margin-top: 10px;
+}
+.list::before{
+	content: "";
+    position: absolute;
+    top: 40px;
+    left: -12px;
+    width: 12px;
+    height: 16px;
+    opacity: 0;
+    background: url(../images/ico_16.png) left center no-repeat;
+}
+.list:hover::before{
+	opacity: 1;
+}
+.news-shows li{
+	display: block;
+	float: left;
+	height: 100%;
+	margin-right: 20px;
+	background: #EEEEEE;
+}
+.news-shows img{
+	display: block;
+	height: 254px;
+}
+.news-shows li:first-child{
+	float: left;
+	background: #FFFFFD;
+	display: block;
+	width: 30%;
+	
+}
+.news-shows li:last-child{
+	float: left;
+	display: block;
+	width: 68%;
+	margin-left: -14px;
+	margin-top: 5px;
+	position: relative;
+}
+.news-shows li:last-child:hover{
+	margin-top: -10px;
+	background: #FFFFFD;
+	transition: all 0.5 ease-in-out;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+/*.news-shows li:hover{
+	margin-top: -10px;
+	background: #FFFFFD;
+	transition: all 0.5 ease-in-out;
+	box-shadow: 1px 1px 1px 1px #888888;
+}*/
+.news-shows li:last-child{
+	margin-right: 0;
+}
+.news-shows li a{
+	display: block;
+	width: 86%;
+	margin-top: 30px;
+	margin-left: 40px;
+	border-bottom: 1px dashed lightgrey;
+}
+.news_time{
+	display: block;
+	width: 70px;
+	height: 66px;
+	/*margin-top: 30px;
+	margin-left: 30px;*/
+	color: #000000;
+	font-size: 14px;
+	float: left;
+}
+.news_time .day{
+	width: 70px;
+	height: 46px;
+	color: #357dcf;
+	font-size: 50px;
+	text-align: center;
+	line-height: 46px;
+}
+.txt{
+	display: block;
+	float: left;
+	width:538px;
+	height:90%;
+	border-left: 1px dashed lightgrey ;
+}
+.txt .txt_tit{
+	width: 538px;
+	height: 27px;
+	line-height: 27px;
+	color: #000000;
+	margin-left: 8px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.txt .txt_des{
+	width: 534px;
+	height: 57px;
+	line-height: 20px;
+	color: slategray;
+	font-size: 14px;
+	overflow: hidden;
+	margin-left: 8px;
+	margin-top: 20px;
+}
+.more{
+	display: block;
+	width: 238px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: slategray;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.page{
+	width: 1200px;
+	height: 80px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.page .page_con{
+	width: 520px;
+	height: 80px;
+	margin: 0 auto;
+	/*background: #000000;*/
+}
+.page .page_con span{
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-right: 6px;
+	margin-top: 20px;
+	float: left;
+	color: gray;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+.page .page_con p{
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-right: 6px;
+	margin-top: 20px;
+	float: left;
+	color: gray;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+.page .page_con p:first-child{
+	border: 1px solid darkgray;
+}
+.page .page_con p:last-child{
+	border: 1px solid darkgray;
+}
+.active{
+	background: #357dcf;
+}
+/*main部分结束*/
